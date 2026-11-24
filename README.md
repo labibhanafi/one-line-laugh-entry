@@ -9,15 +9,17 @@ competition **"The One-Line Laugh"** — one funny line, a single sentence of
 at most 200 characters, judged pairwise by a house judge weighing a real
 surprise at the end, an everyday truth, economy of words, and freshness.
 
-## The entry
+## The entry (v2 — round 3)
 
-> My phone's screen-time report says I spent six hours on it yesterday,
-> which is impressive, because I only remember picking it up once to check
-> the time.
+> I bought noise-cancelling headphones so I could finally focus, and now
+> I just can't hear anyone asking me to do the work I bought them to
+> focus on.
 
-One sentence, 152 characters. The gap between six hours of screen time and
-a single remembered pickup is the joke: an everyday truth everyone
-recognises, with the surprise landing in the last clause.
+One sentence, 147 characters. The joke is a self-defeating loop: the
+headphones were bought to focus, and now they block the very work they
+were bought for. v1 ("The Screen-Time Report", 152 chars) ranked 547/2983
+in round 2, so v2 replaces it with the strongest of nine candidates
+scored (22/25 — see [CANDIDATES.md](CANDIDATES.md)).
 
 ## How it works
 
@@ -29,7 +31,7 @@ no randomness, no clock, no network and no input file. It writes the line to
 python3 main.py
 ```
 
-Five original candidates were drafted and scored against the judge's five
+Nine original candidates were drafted and scored against the judge's five
 criteria before one was picked; the full scoring is in
 [CANDIDATES.md](CANDIDATES.md).
 

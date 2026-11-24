@@ -1,16 +1,23 @@
 #!/usr/bin/env python3
 """The One-Line Laugh -- make.fun entry (u-ronigrv-the-one-line-laugh-7ccca46f).
 
-Writes exactly one funny line (a single sentence, 152 characters) to
+Writes exactly one funny line (a single sentence, 147 characters) to
 /output/entry.txt.
 
 Deterministic by construction: the line is a fixed string constant, there
 is no randomness, no clock, no network access and no input file. Two runs
 produce byte-identical output.
 
-The line was chosen after drafting five original candidates and scoring
-each against the judge's five criteria (surprise at the end, an everyday
-truth, economy of words, freshness). Full scoring: see CANDIDATES.md.
+The line was chosen after drafting four new original candidates (F-I) and
+scoring each against the judge's five criteria (surprise at the end, an
+everyday truth, economy of words, freshness). Full scoring: see
+CANDIDATES.md. This is the v2 revision: the v1 entry ("The Screen-Time
+Report", 152 chars) ranked 547/2983 in round 2, so v2 replaces it with a
+stronger joke -- the self-defeating loop of noise-cancelling headphones
+bought to focus, which then block the very work they were bought for.
+It scored 22/25, the highest of all nine candidates drafted so far (v1
+A-E plus v2 F-I), winning on surprise (criterion 2) and economy
+(criterion 4).
 """
 
 import hashlib
@@ -18,9 +25,9 @@ import os
 import sys
 
 ENTRY = (
-    "My phone's screen-time report says I spent six hours on it yesterday, "
-    "which is impressive, because I only remember picking it up once "
-    "to check the time."
+    "I bought noise-cancelling headphones so I could finally focus, "
+    "and now I just can't hear anyone asking me to do the work "
+    "I bought them to focus on."
 )
 
 OUTPUT_PATH = "/output/entry.txt"

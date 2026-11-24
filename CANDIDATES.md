@@ -81,3 +81,74 @@ shorter text (fewer bytes, then earlier receipt). **C is the entry.**
 
 B is kept as the v2 alternate for the next round if C's round score calls
 for a revision.
+
+---
+
+## v2 revision — round 3 (24 Nov 2026, ~14:40 WIB)
+
+v1 entry C ranked 547/2983 in round 2 — outside the top 20, so a stronger
+joke is needed. Four NEW original candidates (F–I), none reusing v1 or
+A–E. Same five criteria, same 1–5 scoring.
+
+## F — Password manager (158 chars) — total 21/25
+
+> My password manager remembers every password I own, which is wonderful,
+> because the only password I can still recall is the one for forgetting
+> all the others.
+
+1. Funny, in limit: 4 — "the one for forgetting all the others" is a clean
+   paradox punch.
+2. Surprise at end: 4 — the final clause flips the premise.
+3. Everyday truth: 5 — everyone with a password manager lives this.
+4. Economy: 4 — "which is wonderful, because" is doing setup work, slightly
+   padded.
+5. Fresh: 4 — the manager-remembering-but-I-forget angle is uncommon.
+
+## G — Smartwatch rings (160 chars) — total 21/25
+
+> My smartwatch congratulated me on closing all three activity rings today,
+> which is generous, because my only workout was walking to the fridge
+> between meetings.
+
+1. Funny, in limit: 4 — "walking to the fridge between meetings" lands.
+2. Surprise at end: 4 — the workout reveal reframes the congratulation.
+3. Everyday truth: 5 — ring-chasing plus fridge walks is widely relatable.
+4. Economy: 4 — tight, though "which is generous, because" is a stock
+   hinge.
+5. Fresh: 4 — smartwatch-ring jokes exist, this twist is not a known line.
+
+## H — Noise-cancelling headphones (147 chars) — total 22/25 — SELECTED (v2)
+
+> I bought noise-cancelling headphones so I could finally focus, and now
+> I just can't hear anyone asking me to do the work I bought them to
+> focus on.
+
+1. Funny, in limit: 4 — the self-defeating loop is the joke itself.
+2. Surprise at end: 5 — the last clause turns the purchase against its own
+   purpose; the setup promises focus, the ending cancels the work.
+3. Everyday truth: 4 — headphones-as-focus-tool is a real daily habit.
+4. Economy: 5 — shortest v2 candidate; every word serves the loop, and
+   "focus" bookends the sentence.
+5. Fresh: 4 — headphone jokes exist, but the bought-to-focus / can't-hear-
+   the-work loop is an original framing.
+
+## I — Cloud storage (162 chars) — total 19/25
+
+> I pay every month for cloud storage to keep my files safe, which is
+> reassuring, because the only thing I have ever actually lost is the
+> password to get them back.
+
+1. Funny, in limit: 4 — losing the password to your own safe files is a
+   solid irony.
+2. Surprise at end: 4 — the password twist reframes the safety pitch.
+3. Everyday truth: 4 — relatable.
+4. Economy: 4.
+5. Fresh: 3 — "forgot the password" jokes are familiar territory.
+
+## Selection (v2)
+
+H wins outright at 22/25 — the highest score of all nine candidates (A–E
+plus F–I). It leads on criterion 2 (surprise, 5 — the only 5 in the
+surprise column) and criterion 4 (economy, 5 — the tightest line at 147
+chars), and it is the only candidate whose joke is a self-defeating loop
+rather than a single twist. **H is the v2 entry**, replacing C for round 3.
