@@ -25,21 +25,33 @@ ENTRY = (
 
 OUTPUT_PATH = "/output/entry.txt"
 
+MIN_ENTRY_LENGTH = 1
+MAX_ENTRY_LENGTH = 200
+REQUIRED_PERIODS = 1
+
+
+def validate_entry(text: str) -> str | None:
+    """Return an error message if `text` is not one valid sentence, else None."""
+    if not MIN_ENTRY_LENGTH <= len(text) <= MAX_ENTRY_LENGTH:
+        return (
+            f"entry length {len(text)} is outside the "
+            f"{MIN_ENTRY_LENGTH}-{MAX_ENTRY_LENGTH} range"
+        )
+    if text.count(".") != REQUIRED_PERIODS or not text.endswith("."):
+        return "entry must be exactly one sentence"
+    return None
+
 
 def main() -> int:
-    text = ENTRY
-    if not 1 <= len(text) <= 200:
-        print(f"entry length {len(text)} is outside the 1-200 range",
-              file=sys.stderr)
-        return 1
-    if text.count(".") != 1 or not text.endswith("."):
-        print("entry must be exactly one sentence", file=sys.stderr)
+    error = validate_entry(ENTRY)
+    if error is not None:
+        print(error, file=sys.stderr)
         return 1
     os.makedirs(os.path.dirname(OUTPUT_PATH), exist_ok=True)
     with open(OUTPUT_PATH, "w", encoding="utf-8", newline="\n") as handle:
-        handle.write(text)
-    digest = hashlib.sha256(text.encode("utf-8")).hexdigest()
-    print(f"wrote {OUTPUT_PATH} ({len(text)} chars, sha256 {digest})")
+        handle.write(ENTRY)
+    digest = hashlib.sha256(ENTRY.encode("utf-8")).hexdigest()
+    print(f"wrote {OUTPUT_PATH} ({len(ENTRY)} chars, sha256 {digest})")
     return 0
 
 
